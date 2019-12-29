@@ -4,7 +4,7 @@ define([], function () {
   //and url parameters.
   var defaults = {
     "appid": "",
-    "webmap": "06a4bd5fa1e34ce28f4fb281abb53f38",
+    "webmap": "b234dcabeb6f4b17aeb2f42c09d220d0",
     "oauthappid": null, //"AFTKRmv16wj14N3z",
     //Group templates must support a group url parameter. This will contain the id of the group.
     //group: "",
@@ -42,7 +42,7 @@ define([], function () {
     "legendOpen": false,
     "locationSearch": true,
     //When searchExtent is true the locator will prioritize results within the current map extent.
-    "searchExtent": false,
+    "searchExtent": true,
     "searchLayers": [{
       "id": "",
       "fields": []
